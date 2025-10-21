@@ -57,8 +57,14 @@ const LoginForm = () => {
                 error={touched.password && errors.password}
                 showPasswordToggle
               />
-              <CommonButton type="submit" variant="primary" size="md" fullWidth>
-                Login
+              <CommonButton
+                disabled={isLoggingIn}
+                type="submit"
+                variant="primary"
+                size="md"
+                fullWidth
+              >
+                {isLoggingIn ? "Logining...." : "Login"}
               </CommonButton>
             </Form>
           )}
