@@ -6,8 +6,8 @@ import {
   useCallback,
 } from "react";
 import { toast } from "react-toastify";
-import { useMutation } from "react-query";
 import apis from "../config/api";
+import { useMutation } from "@tanstack/react-query";
 
 // Initial state
 const initialAuthState = {

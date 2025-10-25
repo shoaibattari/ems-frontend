@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import { useMutation } from "react-query";
 import apis from "../../../config/api";
 import { Wrapper } from "../../common";
+import { useMutation } from "@tanstack/react-query";
 
 const Taskify = () => {
   const [tasks, setTasks] = useState([]);
