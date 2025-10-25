@@ -19,8 +19,24 @@ export default {
         "4k": "1920px", // --breakpoint-_4k
       },
       colors: {
-        primary: "#FFB86F", // --color-primary
-        secondary: "#C78C4E", // --color-secondary
+        primary: "#0D71E1",
+
+        secondary: "#7DBBFF",
+
+        lightBlue: "#D2E7FF",
+
+        confirm: "#D4FFDE",
+        "confirm-text": "#16A636",
+
+        danger: "#FFE3E3",
+        "danger-text": "#ED4343",
+
+        warning: "#FFF2CC",
+        "warning-text": "#F26D1F",
+
+        lightGray: "#E1E1E1",
+        mediumGray: "#969B9F",
+        darkGray: "#ADADAD",
         grey: "#333333", // --color-grey
         "light-grey": "#BCBCBC", // --color-light-grey
         red: "#EF0000", // --color-red
